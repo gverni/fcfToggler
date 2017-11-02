@@ -8,8 +8,8 @@
    "content_scripts": [
     {
       "matches": ["https://qualcomm-cdmatech-support.my.salesforce.com/500?fcf=*", "https://qualcomm-cdmatech-support.my.salesforce.com/500/o*"],
-      "js": ["content.js"],  
-   }],
+      "js": ["content.js"]
+	}],
 
    "browser_action": {
       "default_title": "fcfToggler"
@@ -17,6 +17,6 @@
    
    "description": "Toggle user defined views in the drop down list",
    "name": "fsfToggler",
-   "permissions": [ "activeTab"],
+   "permissions": [ "activeTab", "tabs"],
    "version": "0.1"
 }

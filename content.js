@@ -4,7 +4,7 @@ const strUserDefinedPrefix = "_"
 function fcfToggleViews() {
 	
 	// Filter the options list
-	var colOptions = elFcf.children
+	var colOptions = document.getElementsByName("fcf")[0].children
 		for (let i=0; i < colOptions.length; i++) {
 		if (colOptions[i].classList.contains("userdefined")) {
 			colOptions[i].innerHTML = viewListToggled ? strUserDefinedPrefix + colOptions[i].innerHTML : colOptions[i].innerHTML.replace(strUserDefinedPrefix, "") 
