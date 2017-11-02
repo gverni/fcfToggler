@@ -26,8 +26,7 @@ if 	(document.getElementsByName("fcf").length !== 0) {
 			colOptions[i].classList.add("userdefined")
 		} 
 	}
-	
-
+	fcfToggleViews()
 }
 
 
