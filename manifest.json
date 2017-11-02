@@ -16,7 +16,7 @@
    },
    
    "description": "Toggle user defined views in the drop down list",
-   "name": "fsfToggler",
-   "permissions": [ "activeTab", "tabs"],
+   "name": "fcfToggler",
+   "permissions": [ "activeTab", "tabs" ],
    "version": "0.1"
 }
